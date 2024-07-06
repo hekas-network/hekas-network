@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2023-04-06T20:52:45.818235826Z",
+  "genesis_time": "2024-07-06T16:41:33.114228276Z",
   "chain_id": "hekas_9899-1",
   "initial_height": "1",
   "consensus_params": {
@@ -34,7 +34,7 @@
         {
           "@type": "/ethermint.types.v1.EthAccount",
           "base_account": {
-            "address": "hekas1lxsp09rgg940hqlse0zaqnctmyc9gp02tjmpdk",
+            "address": "hekas14dgaz3fy3cn5zv64ay58fxa2ngagsgmwj6r9py",
             "pub_key": null,
             "account_number": "0",
             "sequence": "0"
@@ -53,11 +53,11 @@
       },
       "balances": [
         {
-          "address": "hekas1lxsp09rgg940hqlse0zaqnctmyc9gp02tjmpdk",
+          "address": "hekas14dgaz3fy3cn5zv64ay58fxa2ngagsgmwj6r9py",
           "coins": [
             {
               "denom": "ahekas",
-              "amount": "28000000000000000000000000"
+              "amount": "100000000000000000000000000"
             }
           ]
         }
@@ -65,7 +65,7 @@
       "supply": [
         {
           "denom": "ahekas",
-          "amount": "28000000000000000000000000"
+          "amount": "100000000000000000000000000"
         }
       ],
       "denom_metadata": []
@@ -202,7 +202,7 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "hekas20validator",
+                  "moniker": "first",
                   "identity": "",
                   "website": "",
                   "security_contact": "",
@@ -214,19 +214,19 @@
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "hekas1lxsp09rgg940hqlse0zaqnctmyc9gp02tjmpdk",
-                "validator_address": "hekasvaloper1lxsp09rgg940hqlse0zaqnctmyc9gp023rg0zy",
+                "delegator_address": "hekas14dgaz3fy3cn5zv64ay58fxa2ngagsgmwj6r9py",
+                "validator_address": "hekasvaloper14dgaz3fy3cn5zv64ay58fxa2ngagsgmwgtstwk",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "vM7R5+aqjKWdy0eIggsnjojh4n1oWKyhIA3Uax6LxI8="
+                  "key": "GsD9MJQ5j6DXqsV97R3NPYrSDEQHvO0GWB5vIOOqcxs="
                 },
                 "value": {
                   "denom": "ahekas",
-                  "amount": "1000000000000000000000"
+                  "amount": "100000000000000000000"
                 }
               }
             ],
-            "memo": "e457437bf7e32ff845114eebd40adbad4cab2708@158.220.99.202:26656",
+            "memo": "a03bb59efb754334817bf4e8fe35d6cea51e1168@185.137.122.250:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -236,7 +236,7 @@
               {
                 "public_key": {
                   "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
-                  "key": "AkiiSR3lUkpNQUE03bd8x9RnLEHPBPVVaYysmsK6plor"
+                  "key": "AhNin/rZUXc2lJ58TEunpJSNo01HKGzMJv54r7AYPLQW"
                 },
                 "mode_info": {
                   "single": {
@@ -255,7 +255,7 @@
             "tip": null
           },
           "signatures": [
-            "7sSTKIlyPKwafXCjWxudjtiyt0icRC+sFx1o/Fsq5/1QsxVXEVMP5+bZA1U+dcnIKS1tlXh4I/fh5plJEkd61AE="
+            "rZiLEeGCivbm6F6cviFtVWuS7iYlIwVvX3QQcf5foMY4cmh1OZ0kBjn96BPaH8w1uekpOxN03hdRXZYyiHmYCwA="
           ]
         }
       ]
